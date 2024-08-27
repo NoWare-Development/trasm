@@ -117,6 +117,15 @@ Remainder in `RDX/EDX/DX`.
 ### FSQRT
 `FSQRT`
 
+### FSIN
+`FSIN`
+
+### FCOS
+`FCOS`
+
+### FSINCOS
+`FSINCOS`
+
 ### SHR
 `SHR <DST>, <SRC>`
 
