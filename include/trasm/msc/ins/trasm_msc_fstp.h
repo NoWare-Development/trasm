@@ -4,6 +4,6 @@
 #define _MSC_FSTP(x) \
   __asm { fstp x }
 
-#define FSTP_V(t, v) _MSC_FSTP(v)
+#define FSTP_V(v) _MSC_FSTP(v)
 
 #endif // __TRASM_MSC_FSTP__
