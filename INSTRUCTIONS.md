@@ -117,54 +117,6 @@ Remainder in `RDX/EDX/DX`.
 ### FSQRT
 `FSQRT`
 
-### AND
-`AND <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
-### OR
-`OR <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
-### NOR
-`NOR <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
-### NAND
-`NAND <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
-### NOT
-`NOT <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
-### XOR
-`XOR <DST>, <SRC>`
-
-| DEST | REG | CONST | VAR |
-| ---- | --- | ----- | --- |
-| REG  | *   | -     | -   |
-| VAR  | -   | -     | -   |
-
 ### SHR
 `SHR <DST>, <SRC>`
 
