@@ -5,5 +5,4 @@ compilers.
 
 To use this in your projects just include `include/trasm/trasm.h`
 
-Supported instructions: `INSTRUCTIONS.md` \
-Types: `TYPES.md`
+Check also: `INSTRUCTIONS.md`, `TYPES.md`.
