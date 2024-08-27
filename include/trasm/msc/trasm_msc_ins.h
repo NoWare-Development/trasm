@@ -3,7 +3,10 @@
 
 #include "ins/trasm_msc_add.h"
 #include "ins/trasm_msc_div.h"
+#include "ins/trasm_msc_fcos.h"
 #include "ins/trasm_msc_fld.h"
+#include "ins/trasm_msc_fsin.h"
+#include "ins/trasm_msc_fsincos.h"
 #include "ins/trasm_msc_fsqrt.h"
 #include "ins/trasm_msc_fstp.h"
 #include "ins/trasm_msc_idiv.h"
