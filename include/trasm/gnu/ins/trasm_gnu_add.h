@@ -2,10 +2,10 @@
 #define __TRASM_GNU_ADD__
 
 #define ADD_RR(t, r1, r2) \
-  __asm__("add" t " %" r2 ",%" r1 "\n")
+  __asm__("add" t " " r2 "," r1 "\n")
 
 #define ADD_RC(t, r, c) \
-  __asm__("add" t " $" #c ",%" r "\n")
+  __asm__("add" t " $" #c "," r "\n")
 
 #define ADD_RV(t, r, v) \
   __asm__("add" t " %0,%" r "\n" : : "m"(v))

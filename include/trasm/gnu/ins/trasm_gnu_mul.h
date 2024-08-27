@@ -2,7 +2,7 @@
 #define __TRASM_GNU_MUL__
 
 #define MUL_R(t, r) \
-  __asm__("mul" t " %" r "\n")
+  __asm__("mul" t " " r "\n")
 
 #define MUL_C(t, c) \
   __asm__("mul" t " $" #c "\n")

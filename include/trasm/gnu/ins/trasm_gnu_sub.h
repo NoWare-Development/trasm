@@ -2,10 +2,10 @@
 #define __TRASM_GNU_SUB__
 
 #define SUB_RR(t, r1, r2) \
-  __asm__("sub" t " %" r2 ",%" r1 "\n")
+  __asm__("sub" t " " r2 "," r1 "\n")
 
 #define SUB_RC(t, r, c) \
-  __asm__("sub" t " $" #c ",%" r "\n")
+  __asm__("sub" t " $" #c "," r "\n")
 
 #define SUB_RV(t, r, v) \
   __asm__("sub" t " %0,%" r "\n" : : "m"(v))

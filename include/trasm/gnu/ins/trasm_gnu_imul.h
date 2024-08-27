@@ -2,7 +2,7 @@
 #define __TRASM_GNU_IMUL__
 
 #define IMUL_R(t, r) \
-  __asm__("imul" t " %" r "\n")
+  __asm__("imul" t " " r "\n")
 
 #define IMUL_C(t, c) \
   __asm__("imul" t " $" #c "\n")
