@@ -141,3 +141,50 @@ Remainder in `RDX/EDX/DX`.
 | ---- | --- | ----- | --- |
 | REG  | *   | *     | -   |
 | VAR  | -   | *     | -   |
+
+### AND
+`AND <A>, <B>`
+
+| DEST | REG | CONST | VAR |
+| ---- | --- | ----- | --- |
+| REG  | *   | *     | *   |
+| VAR  | *   | *     | *   |
+
+### OR
+`OR <A>, <B>`
+
+| DEST | REG | CONST | VAR |
+| ---- | --- | ----- | --- |
+| REG  | *   | *     | *   |
+| VAR  | *   | *     | *   |
+
+### NOT
+`NOT <A>`
+
+| REG | CONST | VAR |
+| --- | ----- | --- |
+| *   | -     | *   |
+
+### NAND
+`NAND <A>, <B>`
+
+| DEST | REG | CONST | VAR |
+| ---- | --- | ----- | --- |
+| REG  | *   | *     | *   |
+| VAR  | *   | *     | *   |
+
+### NOR
+`NOR <A>, <B>`
+
+| DEST | REG | CONST | VAR |
+| ---- | --- | ----- | --- |
+| REG  | *   | *     | *   |
+| VAR  | *   | *     | *   |
+
+### XOR
+`XOR <A>, <B>`
+
+| DEST | REG | CONST | VAR |
+| ---- | --- | ----- | --- |
+| REG  | *   | *     | *   |
+| VAR  | *   | *     | *   |
