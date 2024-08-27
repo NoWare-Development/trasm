@@ -2,6 +2,8 @@
 #define __TRASM_MSC_TYPE__
 
 // This file only exists to be compatible with GNU C compiler.
+#define T_AUTO
+
 #define T_BYTE
 #define T_WORD
 #define T_LONG

@@ -1,6 +1,8 @@
 #ifndef __TRASM_GNU_TYPE__
 #define __TRASM_GNU_TYPE__
 
+#define T_AUTO ""
+
 #define T_BYTE "b"
 #define T_WORD "w"
 #define T_LONG "l"
