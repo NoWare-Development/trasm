@@ -3,5 +3,6 @@
 
 #include "trasm_msc_reg.h"
 #include "trasm_msc_ins.h"
+#include "trasm_msc_type.h"
 
 #endif // __TRASM_MSC__
