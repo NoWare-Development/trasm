@@ -126,6 +126,9 @@ Remainder in `RDX/EDX/DX`.
 ### FSINCOS
 `FSINCOS`
 
+### FABS
+`FABS`
+
 ### SHR
 `SHR <DST>, <SRC>`
 
