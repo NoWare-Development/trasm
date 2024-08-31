@@ -21,7 +21,7 @@ print("val = %d\n", val); // val = 32
 * `C` - constant
 
 ## Supported Instructions
-__TRASM__ does not support all instructions but we are tried to implement
+__TRASM__ does not support all instructions but we are trying to implement
 most of the __most-needed__ instructions.
 
 There's all of them:
