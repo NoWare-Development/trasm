@@ -4,6 +4,7 @@ Almost every instruction needs to know its size.
 To be compatible with GNU Assembler (gas) you __MUST__ provide a type.
 If you are using MSC compiler, type will be ignored.
 
+Integer types:
 | Type          | Size in bytes | AT&T Suffix |
 | ------------- | ------------- | ----------- |
 | `T_BYTE`      | 1             | `b`         |
@@ -29,7 +30,13 @@ If you are using MSC compiler, type will be ignored.
 | `T_U64`       | 8             | `q`         |
 | `T_AUTO`      | -             | -           |
 
-Identical types:
+Floating-point types:
+| Type         | Size in bytes | AT&T Suffix |
+| ------------ | ------------- | ----------- |
+| `T_FPSINGLE` | 4             | `s`         |
+| `T_FPLONG`   | 8             | `l`         |
+
+Identical integer types:
 | Size in bytes | Types                                                |
 | ------------- | ---------------------------------------------------- |
 | 1             | `T_BYTE` `T_CHAR` `T_UCHAR` `T_I8` `T_U8`            |

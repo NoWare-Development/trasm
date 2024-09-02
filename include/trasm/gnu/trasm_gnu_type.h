@@ -29,4 +29,7 @@
 #define T_U32 T_LONG
 #define T_U64 T_QWORD
 
+#define T_FPSINGLE "s"
+#define T_FPLONG "l"
+
 #endif // __TRASM_GNU_TYPE__

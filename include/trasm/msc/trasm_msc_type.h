@@ -30,4 +30,7 @@
 #define T_U32
 #define T_U64
 
+#define T_FPSINGLE
+#define T_FPLONG
+
 #endif // __TRASM_MSC_TYPE__
