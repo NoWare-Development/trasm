@@ -28,7 +28,6 @@ Integer types:
 | `T_U16`       | 2             | `w`         |
 | `T_U32`       | 4             | `l`         |
 | `T_U64`       | 8             | `q`         |
-| `T_AUTO`      | -             | -           |
 
 Floating-point types:
 | Type         | Size in bytes | AT&T Suffix |
@@ -43,7 +42,3 @@ Identical integer types:
 | 2             | `T_WORD` `T_SHORT` `T_USHORT` `T_I16` `T_U16`        |
 | 4             | `T_DWORD` `T_LONG` `T_INT` `T_UINT` `T_I32` `T_U32`  |
 | 8             | `T_QWORD` `T_LONG_INT` `T_ULONG_INT` `T_I64` `T_U64` |
-
-P.S.: `T_AUTO` type automatically detects type you want to pass in instruction.
-This will throw a warning at compile-time if you are using GCC-compatible
-C compiler. In MSC types are ignored.
