@@ -2,6 +2,7 @@
 #define __TRASM_GNU_INS__
 
 #include "ins/trasm_gnu_add.h"
+#include "ins/trasm_gnu_and.h"
 #include "ins/trasm_gnu_div.h"
 #include "ins/trasm_gnu_fabs.h"
 #include "ins/trasm_gnu_fcos.h"
@@ -14,8 +15,13 @@
 #include "ins/trasm_gnu_imul.h"
 #include "ins/trasm_gnu_mov.h"
 #include "ins/trasm_gnu_mul.h"
+#include "ins/trasm_gnu_nand.h"
+#include "ins/trasm_gnu_nor.h"
+#include "ins/trasm_gnu_not.h"
+#include "ins/trasm_gnu_or.h"
 #include "ins/trasm_gnu_shl.h"
 #include "ins/trasm_gnu_shr.h"
 #include "ins/trasm_gnu_sub.h"
+#include "ins/trasm_gnu_xor.h"
 
 #endif // __TRASM_GNU_INS__
