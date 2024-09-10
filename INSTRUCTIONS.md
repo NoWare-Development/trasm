@@ -209,7 +209,7 @@ Remainder in `RDX/EDX/DX`.
 
 __<ins>NOTE</ins>__: accepts only 8-bit registers.
 
-## LEA
+### LEA
 `LEA <A>, <B>`
 
 | DEST | REG | VAR |
