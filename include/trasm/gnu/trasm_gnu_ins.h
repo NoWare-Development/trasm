@@ -20,6 +20,7 @@
 #include "ins/trasm_gnu_nor.h"
 #include "ins/trasm_gnu_not.h"
 #include "ins/trasm_gnu_or.h"
+#include "ins/trasm_gnu_setbe.h"
 #include "ins/trasm_gnu_shl.h"
 #include "ins/trasm_gnu_shr.h"
 #include "ins/trasm_gnu_sub.h"

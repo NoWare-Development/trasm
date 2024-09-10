@@ -199,3 +199,11 @@ Remainder in `RDX/EDX/DX`.
 | ------ | --- | ----- | --- |
 | REG    | *   | *     | *   |
 | VAR    | *   | *     | -   |
+
+### SETBE
+`SETBE <A>`
+| REG | VAR |
+| --- | --- |
+| *   | -   |
+
+__<ins>NOTE</ins>__: accepts only 8-bit registers.

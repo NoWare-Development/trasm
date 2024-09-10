@@ -20,6 +20,7 @@
 #include "ins/trasm_msc_nor.h"
 #include "ins/trasm_msc_not.h"
 #include "ins/trasm_msc_or.h"
+#include "ins/trasm_msc_setbe.h"
 #include "ins/trasm_msc_shl.h"
 #include "ins/trasm_msc_shr.h"
 #include "ins/trasm_msc_sub.h"
