@@ -14,6 +14,7 @@
 #include "ins/trasm_gnu_fstp.h"
 #include "ins/trasm_gnu_idiv.h"
 #include "ins/trasm_gnu_imul.h"
+#include "ins/trasm_gnu_lea.h"
 #include "ins/trasm_gnu_mov.h"
 #include "ins/trasm_gnu_mul.h"
 #include "ins/trasm_gnu_nand.h"

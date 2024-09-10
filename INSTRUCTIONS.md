@@ -202,8 +202,17 @@ Remainder in `RDX/EDX/DX`.
 
 ### SETBE
 `SETBE <A>`
+
 | REG | VAR |
 | --- | --- |
 | *   | -   |
 
 __<ins>NOTE</ins>__: accepts only 8-bit registers.
+
+## LEA
+`LEA <A>, <B>`
+
+| DEST | REG | VAR |
+| ---- | --- | --- |
+| REG  | -   | *   |
+| VAR  | -   | -   |

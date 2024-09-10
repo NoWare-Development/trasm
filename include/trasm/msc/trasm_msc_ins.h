@@ -14,6 +14,7 @@
 #include "ins/trasm_msc_fstp.h"
 #include "ins/trasm_msc_idiv.h"
 #include "ins/trasm_msc_imul.h"
+#include "ins/trasm_msc_lea.h"
 #include "ins/trasm_msc_mov.h"
 #include "ins/trasm_msc_mul.h"
 #include "ins/trasm_msc_nand.h"
