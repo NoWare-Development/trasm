@@ -191,3 +191,11 @@ Remainder in `RDX/EDX/DX`.
 | ---- | --- | ----- | --- |
 | REG  | *   | *     | *   |
 | VAR  | *   | *     | *   |
+
+### CMP
+`CMP <A>, <B>`
+
+| 1ST OP | REG | CONST | VAR |
+| ------ | --- | ----- | --- |
+| REG    | *   | *     | *   |
+| VAR    | *   | *     | -   |

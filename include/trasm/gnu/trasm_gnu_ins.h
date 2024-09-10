@@ -3,6 +3,7 @@
 
 #include "ins/trasm_gnu_add.h"
 #include "ins/trasm_gnu_and.h"
+#include "ins/trasm_gnu_cmp.h"
 #include "ins/trasm_gnu_div.h"
 #include "ins/trasm_gnu_fabs.h"
 #include "ins/trasm_gnu_fcos.h"

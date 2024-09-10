@@ -3,6 +3,7 @@
 
 #include "ins/trasm_msc_add.h"
 #include "ins/trasm_msc_and.h"
+#include "ins/trasm_msc_cmp.h"
 #include "ins/trasm_msc_div.h"
 #include "ins/trasm_msc_fabs.h"
 #include "ins/trasm_msc_fcos.h"
