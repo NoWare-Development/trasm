@@ -200,23 +200,3 @@ __<ins>NOTE</ins>__: accepts only 8-bit registers.
 | ---- | --- | --- |
 | REG  | -   | *   |
 | VAR  | -   | -   |
-
-### SCAS
-`SCAS<TYPE> <ADDRESS>, <NULL BYTE>`
-
-__<ins>NOTE</ins>__: `SCAS_` instruction needs a type specified.
-If you don't provide it, every compiler will throw an error.
-
-__Valid `SCAS` instructions__: `SCASB`, `SCASW`, `SCASL`
-
-| ADDRESS | VALID |
-| ------- | ----- |
-| REG     | *     |
-| CONST   | -     |
-| VAR     | -     |
-
-| NULL BYTE | VALID |
-| --------- | ----- |
-| REG       | *     |
-| CONST     | -     |
-| VAR       | -     |
