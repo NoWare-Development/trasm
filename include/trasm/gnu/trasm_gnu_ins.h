@@ -17,8 +17,6 @@
 #include "ins/trasm_gnu_lea.h"
 #include "ins/trasm_gnu_mov.h"
 #include "ins/trasm_gnu_mul.h"
-#include "ins/trasm_gnu_nand.h"
-#include "ins/trasm_gnu_nor.h"
 #include "ins/trasm_gnu_not.h"
 #include "ins/trasm_gnu_or.h"
 #include "ins/trasm_gnu_setbe.h"

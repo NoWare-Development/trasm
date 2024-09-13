@@ -17,8 +17,6 @@
 #include "ins/trasm_msc_lea.h"
 #include "ins/trasm_msc_mov.h"
 #include "ins/trasm_msc_mul.h"
-#include "ins/trasm_msc_nand.h"
-#include "ins/trasm_msc_nor.h"
 #include "ins/trasm_msc_not.h"
 #include "ins/trasm_msc_or.h"
 #include "ins/trasm_msc_setbe.h"
